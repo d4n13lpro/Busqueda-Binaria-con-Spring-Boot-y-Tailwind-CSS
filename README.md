@@ -27,9 +27,20 @@ Una aplicación web moderna que demuestra el algoritmo de búsqueda binaria impl
 
 ## 🔧 Instalación y Ejecución
 
+### Preparar el entorno
+1. **Crear una carpeta local** para el proyecto:
+   ```bash
+   mkdir mi-proyecto-java
+   cd mi-proyecto-java
+   ```
+
+2. **Abrir Git Bash** en la carpeta creada:
+    - Click derecho en la carpeta → "Git Bash Here"
+    - O desde terminal: navegar a la carpeta y ejecutar `bash`
+
 ### Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/Busqueda-Binaria-con-Spring-Boot-y-Tailwind-CSS.git
+git clone https://github.com/d4n13lpro/Busqueda-Binaria-con-Spring-Boot-y-Tailwind-CSS.git
 cd Busqueda-Binaria-con-Spring-Boot-y-Tailwind-CSS
 ```
 
@@ -54,34 +65,34 @@ Abre tu navegador y visita: `http://localhost:8080`
 *Formulario de entrada para el array y el valor objetivo*
 
 ### Resultado de Búsqueda Exitosa
-<img src="https://github.com/user-attachments/assets/65b3375a-2a18-4021-a423-10a296084fe3" width="500" alt="Interfaz Principal">
+<img src="https://github.com/user-attachments/assets/65b3375a-2a18-4021-a423-10a296084fe3" width="500" alt="Resultado Exitoso">
 
 *Visualización del resultado cuando el elemento es encontrado*
 
 ### Resultado de Búsqueda Sin Coincidencias
-<img src="https://github.com/user-attachments/assets/fdcb6272-890a-4115-8b5c-09ffac4f05a1" width="500" alt="Interfaz Principal">
+<img src="https://github.com/user-attachments/assets/fdcb6272-890a-4115-8b5c-09ffac4f05a1" width="500" alt="Resultado No Encontrado">
 
 *Mensaje mostrado cuando el elemento no existe en el array*
 
 ### Manejo de Errores
-<img src="https://github.com/user-attachments/assets/6f62c533-078c-4a1e-afcb-199c946aef43" width="500" alt="Interfaz Principal">
+<img src="https://github.com/user-attachments/assets/6f62c533-078c-4a1e-afcb-199c946aef43" width="500" alt="Manejo de Errores">
 
 *Validación y manejo de errores de entrada*
 
 ## 📖 Uso
 
 1. **Ingresar el Array**: Introduce números separados por comas en el primer campo
-   - Ejemplo: `2, 5, 1, 10, 12, 8`
+    - Ejemplo: `2, 5, 1, 10, 12, 8`
 
 2. **Definir el Objetivo**: Especifica el número que deseas buscar
-   - Ejemplo: `12`
+    - Ejemplo: `12`
 
 3. **Ejecutar la Búsqueda**: Haz clic en el botón "Buscar"
 
 4. **Ver Resultados**: La aplicación mostrará:
-   - El array ordenado
-   - El índice donde se encontró el elemento (o -1 si no existe)
-   - El tiempo de ejecución en microsegundos
+    - El array ordenado
+    - El índice donde se encontró el elemento (o -1 si no existe)
+    - El tiempo de ejecución en microsegundos
 
 ## 🏗️ Arquitectura del Proyecto
 
@@ -105,27 +116,27 @@ src/
 #### SearchService
 - **Responsabilidad**: Lógica de negocio para la búsqueda binaria
 - **Características**:
-  - Implementación del algoritmo de búsqueda binaria
-  - Warm-up de JVM para mediciones precisas
-  - Medición de rendimiento en microsegundos
-  - Clase interna `SearchResult` para encapsular resultados
+    - Implementación del algoritmo de búsqueda binaria
+    - Warm-up de JVM para mediciones precisas
+    - Medición de rendimiento en microsegundos
+    - Clase interna `SearchResult` para encapsular resultados
 
 #### SearchController
 - **Responsabilidad**: Manejo de peticiones HTTP y renderizado de vistas
 - **Endpoints**:
-  - `GET /`: Muestra el formulario principal
-  - `POST /`: Procesa la búsqueda y muestra resultados
+    - `GET /`: Muestra el formulario principal
+    - `POST /`: Procesa la búsqueda y muestra resultados
 - **Características**:
-  - Validación de entrada
-  - Manejo de errores
-  - Inyección de dependencias
+    - Validación de entrada
+    - Manejo de errores
+    - Inyección de dependencias
 
 #### index.html
 - **Responsabilidad**: Interfaz de usuario
 - **Características**:
-  - Formulario responsivo con Tailwind CSS
-  - Visualización de resultados y errores
-  - Preservación de datos de entrada
+    - Formulario responsivo con Tailwind CSS
+    - Visualización de resultados y errores
+    - Preservación de datos de entrada
 
 ## 🔍 Algoritmo de Búsqueda Binaria
 
@@ -180,6 +191,16 @@ spring.thymeleaf.cache=false
 spring.thymeleaf.enabled=true
 spring.thymeleaf.encoding=UTF-8
 ```
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Para contribuir:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -m 'Añadir nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Abre un Pull Request
 
 ## 📝 Licencia
 
