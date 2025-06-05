@@ -13,18 +13,18 @@
     </style>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800 p-5">
-<div class="container bg-white p-6 rounded-lg shadow-md max-w-md mx-auto border border-red-500">
+<div class="container bg-white p-6 rounded-lg shadow-md max-w-md mx-auto border ">
     <h1 class="text-blue-700 text-3xl font-bold text-center mb-8">Búsqueda Binaria</h1>
 
     <form action="/" method="post" class="space-y-4">
-        <div class="border border-red-500 p-2 rounded">
+        <div class="border  p-2 rounded">
             <label for="array_input" class="block text-gray-700 font-bold mb-2">Ingresa el array (números separados por comas):</label>
             <input type="text" id="array_input" name="array_input"
                    placeholder="Ej: 2, 5, 1, 10, 12, 8" required
                    th:value="${arrayInput}"
                    class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
-        <div class="border border-red-500 p-2 rounded">
+        <div class="border  p-2 rounded">
             <label for="target_input" class="block text-gray-700 font-bold mb-2">Ingresa el objetivo de búsqueda:</label>
             <input type="number" id="target_input" name="target_input"
                    placeholder="Ej: 12" required
@@ -37,7 +37,7 @@
         </button>
     </form>
 
-    <div th:if="${result != null}" class="result bg-blue-50 p-4 rounded-md mt-6 border-l-4 border-blue-600 border border-red-500">
+    <div th:if="${result != null}" class="result bg-blue-50 p-4 rounded-md mt-6 border-l-4 border-blue-600 border ">
         <h3 class="text-xl font-semibold mb-2">Resultados:</h3>
         <p class="mb-1">Array ordenado: <span class="font-mono bg-gray-200 px-2 py-1 rounded" th:text="${sortedArray}"></span></p>
         <p class="mb-1">Objetivo de búsqueda: <span class="font-semibold" th:text="${target}"></span></p>
@@ -46,7 +46,7 @@
         <p class="duration text-green-600 font-bold mt-2">Tiempo de ejecución ( Java ): <span th:text="${duration}"></span> µs</p>
     </div>
 
-    <div th:if="${error != null}" class="error bg-red-100 text-red-800 p-4 rounded-md mt-6 border-l-4 border-red-600 border border-red-500">
+    <div th:if="${error != null}" class="error bg-red-100 text-red-800 p-4 rounded-md mt-6 border-l-4 border-red-600 border ">
         <h3 class="text-xl font-semibold mb-2">Error:</h3>
         <p th:text="${error}"></p>
     </div>
