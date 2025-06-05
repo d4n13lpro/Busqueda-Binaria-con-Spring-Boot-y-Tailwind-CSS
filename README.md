@@ -10,7 +10,7 @@
 ![Maven](https://img.shields.io/badge/Maven-3.9-%23C71A36?logo=apachemaven&logoColor=white)
 
 
-Una aplicación web moderna que demuestra el algoritmo de búsqueda binaria implementado en Java 21 con Spring Boot 3.2.6 y una interfaz de usuario estilizada con Tailwind CSS.
+Una aplicación web que demuestra el algoritmo de búsqueda binaria implementado en Java 21 con Spring Boot 3.2.6 y una interfaz de usuario estilizada con Tailwind CSS.
 
 
 
