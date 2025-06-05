@@ -197,15 +197,6 @@ spring.thymeleaf.enabled=true
 spring.thymeleaf.encoding=UTF-8
 ```
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -m 'Añadir nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
 
 ## 📝 Licencia
 
