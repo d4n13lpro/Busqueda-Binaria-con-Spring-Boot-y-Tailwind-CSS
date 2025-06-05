@@ -1,6 +1,18 @@
 # Búsqueda Binaria con Spring Boot y Tailwind CSS
 
+## 🛠️ Stack 
+
+![Java](https://img.shields.io/badge/Java-21-%23ED8B00?logo=openjdk&logoColor=white)  
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.6-%236DB33F?logo=springboot&logoColor=white)  
+![Spring MVC](https://img.shields.io/badge/Spring_MVC-6.1-%236DB33F?logo=spring&logoColor=white)  
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-3.1-%23005F0F?logo=thymeleaf&logoColor=white)  
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-%2338B2AC?logo=tailwindcss&logoColor=white)  
+![Maven](https://img.shields.io/badge/Maven-3.9-%23C71A36?logo=apachemaven&logoColor=white)
+
+
 Una aplicación web moderna que demuestra el algoritmo de búsqueda binaria implementado en Java 21 con Spring Boot 3.2.6 y una interfaz de usuario estilizada con Tailwind CSS.
+
+
 
 ## 🚀 Características
 
@@ -10,14 +22,7 @@ Una aplicación web moderna que demuestra el algoritmo de búsqueda binaria impl
 - **Validación de Datos**: Manejo robusto de errores y validación de entrada
 - **Arquitectura Limpia**: Separación clara entre capas de servicio y controlador
 
-## 🛠️ Tecnologías Utilizadas
 
-- **Java 21**: Lenguaje de programación principal
-- **Spring Boot 3.2.6**: Framework para desarrollo de aplicaciones web
-- **Spring MVC**: Para el patrón Modelo-Vista-Controlador
-- **Thymeleaf**: Motor de plantillas para el frontend
-- **Tailwind CSS**: Framework de CSS para el diseño
-- **Maven**: Gestión de dependencias y construcción del proyecto
 
 ## 📋 Prerrequisitos
 
@@ -208,7 +213,7 @@ Este proyecto está bajo la licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👤 Autor
 
-**Daniel** - Desarrollador Principal
+**Daniel Acuña** - Desarrollador Principal
 
 ## 🙏 Agradecimientos
 
